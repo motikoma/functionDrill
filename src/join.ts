@@ -6,7 +6,7 @@ _.join(['a', 'b', 'c'], '~');
 const array = ['a', 'b', 'c'];
 console.log(array.join("~"));
 
-function join(array, separator = ',') {
+function join(array: any, separator = ',') {
   const copiedArray = [...array];
 
   let joinedString = copiedArray.shift();
