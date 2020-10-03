@@ -1,1 +1,3 @@
 # functionDrill
+
+自己学習としてlodashの関数をライブラリを使わずにtypescript化suru
