@@ -11,7 +11,7 @@ _.take([1, 2, 3], 5);
 _.take([1, 2, 3], 0);
 // => []
 
-const array = ["a","b","c"];
+const array1 = ["a","b","c"];
 const take = <T>(array: T[], n = 1): T[] => {
     const takedArray = [];
 
@@ -24,4 +24,4 @@ const take = <T>(array: T[], n = 1): T[] => {
     return takedArray;
 }
 
-console.log(take(array));
+console.log(take(array1));
